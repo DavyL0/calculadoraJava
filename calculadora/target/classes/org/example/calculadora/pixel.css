@@ -1,0 +1,58 @@
+.pixel, .pixel2 {
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-font-family: 'VT323';
+    -fx-text-transform: uppercase;
+    -fx-cursor: hand; /* Cursor de mão para indicar que é clicável */
+
+    /* Remove seleção do texto */
+    -fx-user-select: none;
+}
+
+.pixel:pressed, .pixel2:pressed {
+    -fx-translate-y: 2; /* Mover para baixo quando pressionado */
+}
+
+.pixel {
+    /* Configurações de borda com imagem */
+    -fx-border-width: 20;
+    -fx-border-image-source: src("botao.png");
+    -fx-border-image-slice: 20;
+    -fx-border-image-repeat: stretch;
+
+    /* Ajuste de espaçamento para o conteúdo interno */
+    -fx-alignment: center;
+}
+
+.pixel p {
+    /* Centraliza o conteúdo */
+    -fx-padding: 10 20;
+    -fx-background-color: black;
+    -fx-background-radius: 0; /* Para manter os cantos retos */
+
+    /* Adiciona gradientes e formas geométricas */
+    -fx-background-insets: 0, 10 0 0 10;
+    -fx-background-image:
+        radial-gradient(center 0% 0%, radius 14px, transparent 14px, black 15px),
+        radial-gradient(center 100% 0%, radius 14px, transparent 14px, black 15px),
+        radial-gradient(center 100% 100%, radius 14px, transparent 14px, black 15px),
+        radial-gradient(center 0% 100%, radius 14px, transparent 14px, black 15px);
+}
+
+.pixel2 {
+    -fx-padding: 10;
+    -fx-background-color: black;
+    -fx-alignment: center;
+    -fx-position: relative;
+}
+
+.pixel2::before {
+    -fx-background-color: black;
+    -fx-insets: 10 10 10 10;
+}
+
+.pixel2::after {
+    -fx-background-color: black;
+    -fx-insets: 4 4 4 4;
+}
