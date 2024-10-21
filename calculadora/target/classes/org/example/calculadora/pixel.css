@@ -2,7 +2,7 @@
     -fx-font-size: 25px;
     -fx-text-fill: white;
     -fx-padding: 10;
-    -fx-font-family: 'VT323';
+    -fx-font-family: 'Pixelify Sans';
     -fx-text-transform: uppercase;
     -fx-cursor: hand; /* Cursor de mão para indicar que é clicável */
 
@@ -14,15 +14,17 @@
     -fx-translate-y: 2; /* Mover para baixo quando pressionado */
 }
 
-.pixel {
-    /* Configurações de borda com imagem */
-    -fx-border-width: 20;
-    -fx-border-image-source: src("botao.png");
-    -fx-border-image-slice: 20;
-    -fx-border-image-repeat: stretch;
 
-    /* Ajuste de espaçamento para o conteúdo interno */
-    -fx-alignment: center;
+.pixel2 {
+    -fx-background-image: url("file:/Users/davylopes/Documents/GitHub/calculadoraJava/calculadora/target/classes/org/example/calculadora/botao2.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.pixel {
+    -fx-background-image: url("file:/Users/davylopes/Documents/GitHub/calculadoraJava/calculadora/target/classes/org/example/calculadora/botao.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
 }
 
 .pixel p {
