@@ -7,116 +7,113 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="327.0" style="-fx-background-color: #e5e5e5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4bebb" height="133.0" layoutX="23.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="282.0" />
-      <Group layoutX="49.0" layoutY="161.0">
-         <children>
-            <Button layoutX="2.0" layoutY="59.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="1">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="61.0" layoutY="59.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="2">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="122.0" layoutY="60.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="3">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="1.0" layoutY="119.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="4">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="60.0" layoutY="119.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="5">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="121.0" layoutY="120.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="6">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutY="178.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="7">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="59.0" layoutY="178.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="8">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="120.0" layoutY="179.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="9">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutY="237.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="C">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="59.0" layoutY="237.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="0">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="120.0" layoutY="238.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text=",">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="181.0" layoutY="62.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="/">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="180.0" layoutY="122.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="+">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="179.0" layoutY="181.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="-">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="179.0" layoutY="238.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="=">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="n^ 2" textAlignment="CENTER">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" depthTest="DISABLE" layoutX="61.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" scaleShape="false" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="√">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="122.0" layoutY="1.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="\%">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-            <Button layoutX="181.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="x">
-               <font>
-                  <Font size="12.0" />
-               </font>
-            </Button>
-         </children>
-      </Group>
-      <Label alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" layoutX="46.0" layoutY="32.0" prefHeight="81.0" prefWidth="235.0" style="-fx-border-color: #c4bebb; -fx-background-color: #84d07d; -fx-border-radius: 10;" text="123" textAlignment="RIGHT" textFill="#272929">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="327.0" style="-fx-background-color: #e5e5e5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculadora.HelloController">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4bebb" height="133.0" layoutX="23.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="282.0" />
+   <Group layoutX="49.0" layoutY="161.0">
+      <Button fx:id="button" layoutX="2.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="1">
          <font>
-            <Font size="56.0" />
-         </font></Label>
-   </children>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="61.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="2">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="122.0" layoutY="60.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="3">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="1.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="4">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="60.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="5">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="121.0" layoutY="120.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="6">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutY="178.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="7">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="59.0" layoutY="178.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="8">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="120.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="9">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutY="237.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="C">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="59.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="120.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text=",">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="181.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="/">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="180.0" layoutY="122.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="+">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="179.0" layoutY="181.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="-">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="179.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="=">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="n^ 2" textAlignment="CENTER">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" depthTest="DISABLE" layoutX="61.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" scaleShape="false" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="√">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="122.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="\%">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="181.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel2" stylesheets="@pixel.css" text="x">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+   </Group>
+   <Label fx:id="label" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" layoutX="46.0" layoutY="32.0" prefHeight="81.0" prefWidth="235.0" style="-fx-border-color: #c4bebb; -fx-background-color: #84d07d; -fx-border-radius: 10;" styleClass="pixel3" stylesheets="@pixel.css" textAlignment="RIGHT" textFill="#0f380f">
+      <font>
+         <Font size="56.0" />
+      </font>
+   </Label>
 </AnchorPane>

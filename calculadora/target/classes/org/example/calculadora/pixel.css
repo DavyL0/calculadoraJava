@@ -10,19 +10,31 @@
     -fx-user-select: none;
 }
 
+.pixel3 {
+    -fx-font-size: 25px;
+    -fx-text-fill: #0f380f;
+    -fx-padding: 10;
+    -fx-font-family: 'Pixelify Sans';
+    -fx-text-transform: uppercase;
+
+    /* Remove seleção do texto */
+        -fx-user-select: none;
+        }
+
+
 .pixel:pressed, .pixel2:pressed {
     -fx-translate-y: 2; /* Mover para baixo quando pressionado */
 }
 
 
 .pixel2 {
-    -fx-background-image: url("file:/Users/davylopes/Documents/GitHub/calculadoraJava/calculadora/target/classes/org/example/calculadora/botao2.png");
+    -fx-background-image: url("botao2.png");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
 }
 
 .pixel {
-    -fx-background-image: url("file:/Users/davylopes/Documents/GitHub/calculadoraJava/calculadora/target/classes/org/example/calculadora/botao.png");
+    -fx-background-image: url("botao.png");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
 }
