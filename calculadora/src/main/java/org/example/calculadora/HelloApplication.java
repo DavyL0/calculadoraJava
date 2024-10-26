@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 350, 540);
         scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("pixel.css")).toExternalForm());
-        stage.setTitle("Hello!");
+        stage.setTitle("Calculadora 8bit");
         stage.setScene(scene);
         stage.show();
     }
