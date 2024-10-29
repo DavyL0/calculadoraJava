@@ -39,6 +39,12 @@
     -fx-background-repeat: no-repeat;
 }
 
+.pixel-back{
+    -fx-background-image: url("background.png");
+        -fx-background-size: cover;
+        -fx-background-repeat: no-repeat;
+}
+
 .pixel p {
     /* Centraliza o conteúdo */
     -fx-padding: 10 20;
