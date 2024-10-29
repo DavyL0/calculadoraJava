@@ -7,9 +7,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="327.0" style="-fx-background-color: #e5e5e5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculadora.HelloController">
-   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4bebb" height="133.0" layoutX="23.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="282.0" />
-   <Group layoutX="49.0" layoutY="161.0">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="350.0" style="-fx-background-color: #e5e5e5;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculadora.Controller">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4bebb" height="133.0" layoutX="34.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="282.0" />
+   <Group layoutX="59.0" layoutY="160.0">
       <Button fx:id="button" layoutX="2.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e5e5e5;" styleClass="pixel" stylesheets="@pixel.css" text="1">
          <font>
             <Font size="12.0" />
@@ -111,9 +111,10 @@
          </font>
       </Button>
    </Group>
-   <Label fx:id="label" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" layoutX="46.0" layoutY="32.0" prefHeight="81.0" prefWidth="235.0" style="-fx-border-color: #c4bebb; -fx-background-color: #84d07d; -fx-border-radius: 10;" styleClass="pixel3" stylesheets="@pixel.css" textAlignment="RIGHT" textFill="#0f380f">
+   <Label fx:id="label" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" layoutX="57.0" layoutY="32.0" prefHeight="86.0" prefWidth="235.0" style="-fx-border-color: #c4bebb; -fx-background-color: #84d07d; -fx-border-radius: 10;" styleClass="pixel3" stylesheets="@pixel.css" textAlignment="RIGHT" textFill="#0f380f">
       <font>
          <Font size="56.0" />
       </font>
    </Label>
+   <Button layoutX="267.0" layoutY="463.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="50.0" styleClass="pixel3" stylesheets="@pixel.css" text="Button" />
 </AnchorPane>

@@ -5,11 +5,13 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import org.example.calculadora.model.operation.Operation;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class Controller implements Initializable {
+
 
     @FXML
     private Label label;
@@ -37,6 +39,7 @@ public class HelloController implements Initializable {
         }
     }
 
+
     private void processOperation(String operation) {
         double currentInput = Double.parseDouble(label.getText());
 
@@ -44,10 +47,14 @@ public class HelloController implements Initializable {
             case "+":
             case "-":
             case "x":
+            case "√":
+            case"N ²":
+            case"%":
             case "/":
                 // Realiza a operação pendente e armazena o resultado
                 if (!currentOperation.isEmpty()) {
-                    currentResult = performOperation(currentResult, currentInput, currentOperation);
+                    Operation operations = new Operation(currentResult,currentInput);
+                    currentResult = operations.performOperation(currentOperation);
                     label.setText(String.valueOf(currentResult));
                 } else {
                     currentResult = currentInput;
@@ -57,7 +64,8 @@ public class HelloController implements Initializable {
                 break;
             case "=":
                 // Realiza a operação final e exibe o resultado
-                currentResult = performOperation(currentResult, currentInput, currentOperation);
+                Operation operations = new Operation(currentResult,currentInput);
+                currentResult = operations.performOperation(currentOperation);
                 label.setText(String.valueOf(currentResult));
                 currentOperation = "";
                 resetDisplay = true;
@@ -68,16 +76,6 @@ public class HelloController implements Initializable {
                 currentResult = 0.0;
                 currentOperation = "";
                 break;
-        }
-    }
-
-    private double performOperation(double result, double input, String operation) {
-        switch (operation) {
-            case "+": return result + input;
-            case "-": return result - input;
-            case "x": return result * input;
-            case "/": return input != 0 ? result / input : 0; // Evita divisão por zero
-            default: return input;
         }
     }
 
