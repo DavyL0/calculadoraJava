@@ -34,6 +34,23 @@ import org.example.calculadora.model.entities.Numbers;
             case "√" -> Math.sqrt(super.getInput());
             case "N ²" -> Math.pow(super.getInput(), 2);
             case "%" -> (super.getInput() * super.getResult()) / 100;
+            case "," -> {
+                // Converte os valores de entrada e resultado para strings
+                String resultAsString = Double.toString(super.getResult());
+                String inputAsString = Double.toString(super.getInput());
+
+                // Checa se o número já contém um ponto decimal
+                if (!resultAsString.contains(".")) {
+                    // Concatena os valores de input após o ponto decimal
+                    String resultFinal = resultAsString + "." + inputAsString;
+
+                    // Retorna o valor como um número decimal
+                    yield Double.parseDouble(resultFinal);
+                } else {
+                    // Se já existir um ponto decimal, retorna o valor atual
+                    yield super.getResult();
+                }
+            }
             default -> super.getInput();
         };
     }
